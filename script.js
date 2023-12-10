@@ -6,16 +6,19 @@ const cat = {
     favoriteToys : ["spring","ping pong balls","bird stuffy"],
     pet : function() {
         return "purrrrrrr";
-    }
-},
-//in vs code it says type annotations can only be used in typescript files ??
-
+    },
 play: function() {
     this.isSleeping = false;
     return `${this.nickname} is awake and playing !`;
+}
 };
 
+
 console.log(cat.play());
+
+
+
+
 
 
 
